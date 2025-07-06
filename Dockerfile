@@ -13,7 +13,7 @@ COPY ./package*.json ./
 COPY ./tsconfig.json ./
 COPY ./tsup.config.ts ./
 
-RUN npm install --silent
+RUN npm install
 
 COPY ./src ./src
 COPY ./public ./public
